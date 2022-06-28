@@ -1,0 +1,4 @@
+ - Debugging is one of the important part of process of developing applications.
+ - console.log() is quite commonly used for logging & debugging app.
+ - log will be visible in terminal but if the bugs is complex than we need to open debug remote js from simulator. As enabling remote js web debugger is open fron where we can debug.
+ - Debug from VSCODE - install react-native-tools then create launch.json from run and debuging tab.
