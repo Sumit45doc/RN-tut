@@ -1,0 +1,7 @@
+- Text is the react native component use to show text/string
+- import {Text} from 'react-native';
+- support onPress handler
+- Some commonly used props:
+  - numberOfLines    (for truncate lines)
+  - onPress
+  - onLongPress
