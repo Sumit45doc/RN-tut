@@ -1,0 +1,16 @@
+ - Image is the compnent of react native
+ - import {image} from "react-native"
+ - Image props:-
+   - source (similiar to url in reactjs)
+     - If to load local image we need to use require method
+     - Ex: source={require('./assets/icon.png')} . <br/> require method return number refering to image.
+     - For outside image inside to pass url in object of source as value of uri key.
+     - Ex: source={{uri: "https://picsum.photos/200/300?grayscale", width: 200, height: 300}}
+     - Note width and height is compulsory filled for outside image because react native cann't access dimension of the image.
+   - blurRadius (blue image)
+   - loadingIndicatorSource
+   - defaultSource
+   - fadeDuration
+   - onLoad
+   - onLoadEnd
+   - onLoadStart
