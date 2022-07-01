@@ -1,5 +1,5 @@
 import { StatusBar } from 'expo-status-bar';
-import { Image, StyleSheet, Text, View } from 'react-native';
+import { Dimensions, Image, StyleSheet, Text, View } from 'react-native';
 import AlertTut from './src/alertTut';
 import ButtonTut from './src/coreComp/ButtonTut';
 import ImageTut from './src/coreComp/ImageTut';
@@ -8,6 +8,7 @@ import TouchableTut from './src/coreComp/TouchableTut';
 import ViewTut from './src/coreComp/ViewTut';
 
 export default function App() {
+  console.log(Dimensions.get('screen'))
   return (
     <View style={styles.container}>
       {/* <Text style={styles.text} >Hey, React Native</Text> */}
@@ -15,7 +16,7 @@ export default function App() {
       {/* <ImageTut /> */}
       {/* <TouchableTut /> */}
       {/* <ButtonTut /> */}
-      <AlertTut />
+      {/* <AlertTut /> */}
     </View>
   );
 }
