@@ -2,6 +2,7 @@ import { StatusBar } from 'expo-status-bar';
 import { Image, StyleSheet, Text, View } from 'react-native';
 import ImageTut from './src/coreComp/ImageTut';
 import TextTut from './src/coreComp/TextTut';
+import TouchableTut from './src/coreComp/TouchableTut';
 import ViewTut from './src/coreComp/ViewTut';
 
 export default function App() {
@@ -9,7 +10,8 @@ export default function App() {
     <View style={styles.container}>
       {/* <Text style={styles.text} >Hey, React Native</Text> */}
       {/* <StatusBar style="auto" /> */}
-      <ImageTut />
+      {/* <ImageTut /> */}
+      <TouchableTut />
     </View>
   );
 }
