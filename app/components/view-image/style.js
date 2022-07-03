@@ -1,4 +1,5 @@
 import { StyleSheet } from "react-native";
+import colors from "../../config/colors";
 
 const styles = StyleSheet.create({
     container: {
@@ -10,7 +11,7 @@ const styles = StyleSheet.create({
         height: "100%"
     },
     closeIcon: {
-        backgroundColor: "#fc5c65",
+        backgroundColor: colors.primary,
         position: "absolute",
         width: 50,
         height: 50,
@@ -18,7 +19,7 @@ const styles = StyleSheet.create({
         left: 30
     },
     deleteIcon: {
-        backgroundColor: "#4ecdc4",
+        backgroundColor: colors.secondary,
         position: "absolute",
         width: 50,
         height: 50,
