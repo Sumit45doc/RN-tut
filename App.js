@@ -11,7 +11,8 @@ export default function App() {
   
   return (
     <>
-      <ListingDetailsScreen />
+      {/* <ListingDetailsScreen /> */}
+      <ViewImageScreen />
     </>
   );
 }

@@ -4,26 +4,21 @@ import colors from "../../config/colors";
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: "#000"
+        backgroundColor: "#000",
+        justifyContent: "center"
     },
     image: {
         width: "100%",
-        height: "100%"
+        height: "75%"
     },
     closeIcon: {
-        backgroundColor: colors.primary,
         position: "absolute",
-        width: 50,
-        height: 50,
-        top: 30,
+        top: 20,
         left: 30
     },
     deleteIcon: {
-        backgroundColor: colors.secondary,
         position: "absolute",
-        width: 50,
-        height: 50,
-        top: 30,
+        top: 20,
         right: 30
     }
 })
