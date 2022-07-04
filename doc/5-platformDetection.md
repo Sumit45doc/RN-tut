@@ -13,3 +13,16 @@ To detect orientation of the device use useDeviceOrientation() from "react-nativ
 
 Image Dimension:
 To get dimension of external doamin use useImageDimensions() hooks from react-native-community/hook pkg which return {dimensions, error, loading}
+
+
+Platform select styling:
+Platform.select({}) return the object with styling properties by detecting platform
+Syntax - 
+    Platform.select({
+        ios: {
+            ...styling properties like flex:1
+        },
+        andriod: {
+            ...styling
+        }
+    })
