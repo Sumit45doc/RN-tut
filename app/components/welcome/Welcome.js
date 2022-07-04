@@ -1,20 +1,19 @@
 import React from 'react'
 import { Button, Text, Image, ImageBackground, View } from 'react-native'
+import AppButton from '../encapsulation/AppButton';
 import styles from './style';
 
 function Welcome() {
   return (
-    <ImageBackground source={require('../../../assets/background.jpg')} style={styles.background}>
+    <ImageBackground blurRadius={5} source={require('../../../assets/background.jpg')} style={styles.background}>
       <View style={styles.content} >
         <Image source={require('../../../assets/logo-red.png')} style={styles.image} />
-        <Text>text tect text text</Text>
+        <Text style={styles.tagline}>sell what you don't need</Text>
       </View>
-      {/* <View style={styles.buttonGroup} >
-        <Button title='Login' style={styles.loginButton} />
-        <Button color={'red'} title='register' />
-      </View> */}
-      <View style={styles.loginButton} ></View>
-      <View style={styles.registerButton} ></View>
+      <View style={styles.buttonContainer} >
+        <AppButton title='Login'  />
+        <AppButton title='register' color='secondary' />
+      </View>
     </ImageBackground>
     )
 }

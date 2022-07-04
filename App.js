@@ -8,10 +8,9 @@ import WelcomeScreen from './app/screens/WelcomeScreen';
 export default function App() {
   
   return (
-    <View style={styles.container}>
-      {/* <ViewImageScreen /> */}
-      <AppButton title={'login'} onPress={() => console.log("Tapped")} />
-    </View>
+    <>
+        <WelcomeScreen />
+    </>
   );
 }
 

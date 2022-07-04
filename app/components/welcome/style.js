@@ -17,18 +17,16 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         width: '100%'
     },
-    loginButton: {
-        width: '100%',
-        height: 70,
-        backgroundColor: "#E57373",
+  
+    buttonContainer: {
+        padding: 20,
+        width: "100%"
     },
-    registerButton: {
-        width: '100%',
-        height: 70,
-        backgroundColor: "#4ecdc4"
-    },
-    buttonGroup: {
-        
+    tagline: {
+        textTransform: "capitalize",
+        fontWeight: "600",
+        paddingVertical: 10,
+        fontSize: 22,
     }
 })
 
