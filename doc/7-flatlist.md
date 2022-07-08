@@ -4,6 +4,7 @@ Props:-
 - data
 - keyExtractor (unique key)
 - renderItems (has list item for rendering the list)
+- ItemSeparatorComponent (separator component between items)
 
 Syntax:-
 < FlistList data={Items} keyExtractor={item => item.id}  renderItems={({item, index}) =>  < component />} />
